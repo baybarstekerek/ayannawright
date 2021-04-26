@@ -1,0 +1,44 @@
+.content-photo a {
+    font-size: larger;
+    color: black;
+    font-weight: 500;
+}
+
+.content-photo a:hover {
+    color: blue;
+}
+
+.content-photo .text {
+    text-indent: 5rem;
+    font-size: 1.5rem;
+    text-align: justify;
+    line-height: 2rem;
+}
+
+.content-photo ul {
+    text-indent: 4rem;
+    list-style: inside;
+}
+
+.content-photo ul h4 {
+    margin-top: 4%;
+    font-size: 1.4rem;
+}
+
+.img-container {
+    display: flex;
+    width: 90%;
+    margin: 5%;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+img {
+    border-radius: 3px;
+    margin-right: 1%;
+    width: 48%;
+    height: 20%;
+}
+.img3 {
+    width: 97%;
+}

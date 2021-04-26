@@ -1,0 +1,37 @@
+.content-travel {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-travel .text {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    text-indent: 4rem;
+    margin-bottom: 5%;
+}
+
+.tips {
+    display: flex;
+    flex-direction: column;
+}
+
+.tips-header {
+    flex: 1;
+    margin: auto;
+    font-size: 1.4rem;
+}
+
+.quest {
+    list-style:square;
+    text-indent: 4rem;
+    margin-bottom: 1%;
+}
+
+.tips .links {
+    list-style: inside;
+    text-indent: 2rem;
+    margin-bottom: 1%;
+}
+.links:nth-child(3) {
+    margin-bottom: 3%;
+}

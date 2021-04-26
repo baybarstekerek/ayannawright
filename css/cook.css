@@ -1,0 +1,85 @@
+.content-cook .text {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    text-indent: 4rem;
+    margin-bottom: 5%;
+    text-align: justify;
+}
+
+
+.recipe-container {
+    width: 98%;
+    margin: 5% 1%;
+    display: flex;
+    padding: 10%;
+    flex-wrap: wrap;
+    background-color: rgb(241, 241, 241);
+    border-radius: 5px;
+    border: 3px groove rgb(167, 127, 206);
+
+}
+  
+
+.recipe-container a {
+    width: 100%;
+    margin-bottom: 3%;
+    color: blue;
+}
+
+.recipe-container a:hover {
+    color: red;
+}
+
+.recipe-container h3 {
+    font-size: 1.7rem;
+    margin-bottom: 1%;
+}
+
+.recipe-container ul {
+    margin-bottom: 2%;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+    text-align: justify;   
+}
+
+.recipe-container ol {
+    font-style: italic;
+    font-size: 1.1rem;
+    text-align: justify;  
+    line-height: 1.7rem; 
+}
+
+.influencers p {
+    font-size: 1.3rem;
+    margin-bottom: 3%;
+    font-weight: 500;
+}
+
+.influencers li {
+    line-height: 2rem;
+}
+
+.influencer-link {
+    list-style-type: none;
+    margin-bottom: 2%;
+}
+
+.influencer-link {
+    list-style: none;
+}
+
+.influencer-link a {
+    color: red;
+}
+
+.influencer-link a:hover {
+    color: blue;
+}
+
+.lobster-pic {
+    border-radius: 3px;
+    width: 90%;
+    height: 1%;
+    margin: 5%;
+    height: 500px;
+}

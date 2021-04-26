@@ -1,0 +1,47 @@
+.content-read {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2%;
+    justify-content: space-evenly;
+}
+
+.book {
+    margin-bottom: 6%;
+    margin-top: 4%;
+    width: 27%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.book img{
+    border-radius: 2px;
+    height: 95%;
+    width: 100%;
+    flex-basis: 0;
+}
+
+.book-name {
+    text-align:left; 
+    font-size: 1.1rem;
+}
+
+.content-read-header {
+    margin: 1rem 1rem 1rem 4rem;
+    width: 100%;
+}
+
+.advisory {
+    line-height: 2rem;
+    margin-left: 2rem;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+.advisory a {
+    color: blue;
+}
+
+.advisory a:hover {
+    color: red;
+}

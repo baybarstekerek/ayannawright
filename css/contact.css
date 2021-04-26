@@ -1,0 +1,28 @@
+.content-contact .text {
+    font-size: 1.6rem;
+    text-indent: 5rem;
+    font-style: oblique;
+    margin-bottom: 3%;
+}
+
+.content-contact li {
+    list-style-type: none;
+    text-indent: 5rem;
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+}
+
+.double {
+    margin-bottom: 1%;
+}
+
+.content-contact li a {
+    color:lightseagreen;
+    transition: .1s ease;
+}
+
+.content-contact li a:hover {
+    font-weight: 600;
+    transition: .1s ease;
+
+}

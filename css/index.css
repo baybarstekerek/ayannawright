@@ -1,0 +1,46 @@
+.holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .holder1 {
+    width: 100%;
+    display: flex;
+  }
+  
+  
+  .img {
+    border: 1px groove black;
+    border-radius: 5px;
+    width: 40%;
+  }
+  
+  .text {
+      width: 50%;
+      margin: 3%;
+      text-indent:4rem;
+      font-size: 1.4rem;
+      line-height: 1.5rem;
+      font-weight: 300;
+      text-align: justify;
+  }
+  
+  
+  
+  .holder2 {
+    width: 100%;
+  }
+  
+  .text2 a {
+      font-style: italic;
+      font-weight: 300;
+      color: red;
+      text-decoration: underline;
+  }
+  
+  .text2 a:hover {
+      font-weight: 500;
+      color: slateblue;
+  }
+  
